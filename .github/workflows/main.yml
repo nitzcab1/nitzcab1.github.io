@@ -14,7 +14,7 @@ jobs:
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@3.1.1
       with:
-        server: ${{ secrets.FTP_SERVER }}
+        server: nitzcab1.queenzymushroomfarm.com
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
 
