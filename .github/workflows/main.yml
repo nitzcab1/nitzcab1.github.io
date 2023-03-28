@@ -1,9 +1,8 @@
-//For new version of repo
-name: Publish Website to CPanel
 on:
   push:
     branches:
       - main
+name: Publish Website to CPanel
 jobs:
   FTP-Deploy-Action:
     name: FTP-Deploy-Action
