@@ -15,9 +15,9 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@3.1.1
       with:
         # server: nitzcab1.queenzymushroomfarm.com
-        server: www.queenzymushroomfarm.com
-        username: ${{ secrets.FTP_USERNAME }}
-        password: ${{ secrets.FTP_PASSWORD }}
+        ftp-server: www.queenzymushroomfarm.com
+        ftp-username: ${{ secrets.FTP_USERNAME }}
+        ftp-password: ${{ secrets.FTP_PASSWORD }}
         server-dir: /subdomain/nitzcab1.queenzymushroomfarm.com/
 
 
